@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+  <filename>rockometro_air</filename>
+  <copyright>why</copyright>
+  <description>app aplausometro</description>
+  <customUpdateUI>false</customUpdateUI>
+  <name>rockometro</name>
+  <id>rockometroair</id>
+  <version>1</version>
+  <initialWindow>
+    <content>index.html</content>
+    <height>720</height>
+    <width>500</width>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+  </initialWindow>
+  <icon>
+    <image128x128>img/128.png</image128x128>
+    <image48x48>img/48.png</image48x48>
+    <image32x32>img/32.png</image32x32>
+    <image16x16>img/16.png</image16x16>
+  </icon>
+</application>
