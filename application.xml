@@ -6,7 +6,7 @@
   <customUpdateUI>false</customUpdateUI>
   <name>rockometro</name>
   <id>rockometroair</id>
-  <version>1</version>
+  <version>1.1</version>
   <initialWindow>
     <content>index.html</content>
     <height>720</height>
