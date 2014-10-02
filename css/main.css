@@ -233,27 +233,37 @@ body {
 }
 
 #setup{
-	position:fixed;
-	width:455px;
-	height:200px;
+	position:absolute;
+	width:330px;
+	height:50px;
 	border:1px solid red;
 	z-index:100000;
 	left:50%;
 	top:50%;
-	margin:-100px 0 0 -227px;
+	margin:-100px 0 0 -175px;
 	background:rgba(0,0,0,0.8);
 	display:none;
+	padding:10px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	text-align:center;
+	color:#FFF;
 }
-
+/*
 #setup input{
 	display:block;
 	margin:50px 25px;
 	float:left;
 	
 }
+*/
+
+#setup input.ok{
+	line-height:20px;
+	width:50px;
+}
+
 
 #test{
 	color:#FFF;
@@ -263,6 +273,7 @@ body {
 	bottom:10px;
 	width:20px;
 	height:20px;
+	opacity:0;
 }
 
 #cerrar{
@@ -279,7 +290,7 @@ body {
   	transition: all 0.2s ease-in-out;
 }
 
-#cerrar:hover{
+#cerrar:hover,#test:hover{
 	opacity:1;
 }
 

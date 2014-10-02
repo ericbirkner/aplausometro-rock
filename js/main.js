@@ -1,7 +1,7 @@
 //Eric Birkner Js
 
 var deviceArray = air.Microphone.names; 
-var ganancia = 300; 
+var ganancia = 100; 
 var play = true;
 
 
@@ -46,7 +46,7 @@ function barra(valor){
 		valor = valor * 1;
 		var opacidad = valor / 100;
 		
-		if(valor > 60){
+		if(valor > 98){
 			end();
 		}else{
 		
@@ -84,6 +84,20 @@ function end(){
 
 
 $(document).ready(function(){
+	$("[data-slider]")
+    .each(function () {
+      var input = $(this);
+      $("<span>")
+        .addClass("output")
+        .insertAfter($(this));
+    })
+    .bind("slider:ready slider:changed", function (event, data) {
+      $(this)
+        .nextAll(".output:first")
+          .html(data.value.toFixed(0));
+		  ganancia = data.value.toFixed(0);
+    });
+	
 	$('#demo').on('click',function(){
 		end();
 	});
@@ -96,11 +110,15 @@ $(document).ready(function(){
 		applicationExit();
 	});
 	
-	$('#setup input').on('click',function(){
-		ganancia = $(this).val();
+	$('#setup .ok').on('click',function(){
+		ganancia = $('.ganancia').val();
 		//console.log(gente);
 		$(this).parent().fadeOut('fast');
 	});
+	
+	$('#guitarra').on('mousedown',function(){
+		 nativeWindow.startMove(); 
+    });
 	
 });
 

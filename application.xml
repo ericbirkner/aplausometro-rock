@@ -11,8 +11,8 @@
     <content>index.html</content>
     <height>720</height>
     <width>500</width>
-    <systemChrome>standard</systemChrome>
-    <transparent>false</transparent>
+    <systemChrome>none</systemChrome>
+    <transparent>true</transparent>
     <visible>true</visible>
   </initialWindow>
   <icon>

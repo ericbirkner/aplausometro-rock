@@ -1,1 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="airDestinationFolder" value="Macintosh HD:Applications:XAMPP:xamppfiles:htdocs:rockometro_chico:aplausometro-rock" />	<infoitem key="airDestinationFileName" value="rockometroair.air" />	<infoitem key="airChosenCert" value="Macintosh HD:Applications:XAMPP:xamppfiles:htdocs:rockometro_chico:aplausometro-rock:cert.p12" />	<infoitem key="airPackageType" value="packageAIR" />	<infoitem key="airRememberPassword" value="true" />	<infoitem key="airFilesList" value="css/#img/#js/" />	<infoitem key="airFullFilesList" value="index.html#css/#img/#js/" /></info>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="airDestinationFolder" value="C:\Users\Eric Birkner\Documents\GitHub\aplausometro-rock" />
+	<infoitem key="airDestinationFileName" value="rockometroair.air" />
+	<infoitem key="airChosenCert" value="C:\Users\Eric Birkner\Documents\GitHub\aplausometro-rock\eric.p12" />
+	<infoitem key="airPackageType" value="packageAIR" />
+	<infoitem key="airRememberPassword" value="true" />
+	<infoitem key="airFilesList" value="css/#img/#js/" />
+	<infoitem key="airFullFilesList" value="index.html#css/#img/#js/" />
+</info>
